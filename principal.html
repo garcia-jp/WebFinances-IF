@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebFinances</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Finanças</h1>
+        
+        <!-- Formulário para cadastro -->
+        <div class="form-container">
+            <h2>Adicionar Transação</h2>
+            <form id="transacao-form">
+                <input type="text" id="nome" placeholder="Nome/Descrição" required>
+                <select id="categoria">
+                    <option value="Receita">Receita</option>
+                    <option value="Despesa">Despesa</option>
+                </select>
+                <input type="date" id="data" required>
+                <input type="number" id="valor" placeholder="Valor" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+        
+        <!-- Resumo Financeiro -->
+        <div id="resumo-financeiro">
+            <h3>Resumo Financeiro</h3>
+            <p>Total de Receitas: <span id="total-receitas">R$ 0,00</span></p>
+            <p>Total de Despesas: <span id="total-despesas">R$ 0,00</span></p>
+            <p>Saldo Final: <span id="saldo-final">R$ 0,00</span></p>
+        </div>
+
+        <!-- Listagem de Transações -->
+        <div id="transacoes-container">
+            <h2>Transações</h2>
+            <table id="transacoes-table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Categoria</th>
+                        <th>Data</th>
+                        <th>Valor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="transacoes-list">
+                    <!-- Transações serão listadas aqui -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

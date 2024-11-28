@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Formulário */
+.form-container {
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Resumo Financeiro */
+#resumo-financeiro {
+    margin-bottom: 30px;
+}
+
+#resumo-financeiro p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#resumo-financeiro span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Tabela de Transações */
+#transacoes-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+button.edit {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
