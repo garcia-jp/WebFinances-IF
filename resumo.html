@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo Financeiro | Web Finances</title>
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+         <h1 id="nome-empresa"><a href="index.html">Web Finances</a></h1>
+         <ul class="nav-list">
+             <li><a href="#">Adicionar</a></li>
+             <li><a href="cadastrados.html">Cadastrados</a></li>
+             <li><a href="resumo.html">Resumo</a></li>
+         </ul>
+        </nav>
+     </header>
+
+    <main>
+        <div class="container">
+            <h1>Resumo Financeiro</h1>
+            <div class="resumo">
+                <div class="card receita">
+                    <h2>Entradas</h2>
+                    <p id="total-receitas">R$ 0,00</p>
+                </div>
+                <div class="card despesa">
+                    <h2>Saídas</h2>
+                    <p id="total-despesas">R$ 0,00</p>
+                </div>
+                <div class="card saldo">
+                    <h2>Saldo Final</h2>
+                    <p id="saldo-final">R$ 0,00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/resumo.js"></script>
+</body>
+</html>

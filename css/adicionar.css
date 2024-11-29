@@ -1,0 +1,31 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24vh;
+}
+
+#cadastro {
+    background-color: #164e63;
+    width: 550px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+#cadastro h1 {
+    color: white;
+}
+#cadastro input, select, button {
+    width: 90%;
+    padding: 15px;
+    margin: 8px;
+}
+#cadastro button {
+    background-color: #a8a29e;
+}
+
+main {
+    display: flex;
+    height: 92vh;
+    flex-direction: column;
+}

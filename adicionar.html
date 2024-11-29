@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar | Web Finances</title>
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/adicionar.css">
+</head>
+<body>
+    <!-- Paleta de cores: https://color.adobe.com/pt/create/color-wheel -->
+    
+    <header>
+       <nav>
+        <h1 id="nome-empresa"><a href="index.html">Web Finances</a></h1>
+        <ul class="nav-list">
+            <li><a href="#">Adicionar</a></li>
+            <li><a href="cadastrados.html">Cadastrados</a></li>
+            <li><a href="resumo.html">Resumo</a></li>
+        </ul>
+       </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <form id="cadastro" action="">
+                <h1>Adicionar receita ou despesa</h1>
+                <input id="descricao" type="text" placeholder="Nome/Descrição" required> <br>
+                <select name="categoria" id="categoria" required>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                </select> <br>
+                <input type="date" id="data" required> <br>
+                <input type="number" placeholder="Valor" id="valor" required> <br>
+                <button id="cadastrar">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/logica.js"></script>
+</body>
+</html>

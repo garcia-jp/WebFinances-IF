@@ -1,0 +1,35 @@
+main {
+    height: 92vh;
+}
+
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+
+#transacoes {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#transacoes th, #transacoes td {
+    padding: 15px;
+    text-align: left;
+}
+#transacoes td {
+    background-color: #164e63;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#transacoes th {
+    background-color: #e8f5f4;
+}
+
+
