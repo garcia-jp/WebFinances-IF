@@ -23,7 +23,7 @@
     
     <main>
         <div class="container">
-            <form id="cadastro" action="">
+            <form id="cadastro" action="" onsubmit="salvar_cadastro()">
                 <h1>Adicionar receita ou despesa</h1>
                 <input id="descricao" type="text" placeholder="Nome/Descrição" required> <br>
                 <select name="categoria" id="categoria" required>
@@ -32,7 +32,7 @@
                 </select> <br>
                 <input type="date" id="data" required> <br>
                 <input type="number" placeholder="Valor" id="valor" required> <br>
-                <button id="cadastrar">Cadastrar</button>
+                <button type="submit" id="cadastrar">Cadastrar</button>
             </form>
         </div>
     </main>
